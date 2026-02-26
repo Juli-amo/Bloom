@@ -1,0 +1,1269 @@
+fileFormatVersion: 2
+guid: d6bf2a7c404f64538824508b15b25796
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fourDirectionalWatering_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1072
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad19823d82d4f48bf83307f3ee5ce3ca
+      internalID: 1085563959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1072
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8274e227799da4f1d94f5c9a71fb49b1
+      internalID: -852160351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1072
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc85a47a7dd348949dfa2b4b0bdf8cc
+      internalID: -1856339283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1072
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e6934eef0d74d44a2608df962fa19d
+      internalID: 1045757937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_4
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1072
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46f038b690c6424a89d1da6dad33017
+      internalID: 527723378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_5
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1072
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2eb92a1b94240f59754b6b93d3e2d4
+      internalID: 746696913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_6
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1072
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d019f19c4a54e46a399a2ccf6a89622d
+      internalID: -419963820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_7
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1072
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a516f6e921044a98e2cbbbafdc2beb
+      internalID: 1180067930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 912
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f09cc1d1c32b46a7b37a266bc49ada7
+      internalID: -462705780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_9
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 912
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c75444ab1ef440c8c3c85291250e56
+      internalID: 623098933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_10
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 912
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a18586e6b54384a83d901de4ee33b
+      internalID: 1974807077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_11
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 912
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9f3cd4f30a748c7adaa5b08f6bf485
+      internalID: 1525032149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_12
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 912
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb3e9d0fe95344669776fef76596782
+      internalID: -989339227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_13
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 912
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ed936f2e56547ce9478e4c52c75061
+      internalID: -561938486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_14
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 912
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4f8e22fb4e44b8888da496494ea2a5
+      internalID: -651358744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_15
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 912
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018ba7690142c40ff917adb4b2e6e623
+      internalID: 1144361336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 752
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fe185e0b07645208a71c4c2879798f
+      internalID: 1116556954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 752
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe95f83f82fc4e65930ae58bb9b3137
+      internalID: 36110064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_18
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 752
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c124bb19b193649b5b5ed7e50424963d
+      internalID: 1366380390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_19
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 752
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dc5b8577f5c40a4871816fc4979553
+      internalID: -551056856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_20
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 752
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b65aab7ffc104a5195795b31a5d3a38
+      internalID: -983378150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_21
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 752
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4875dca13e3274a07975de7f180da358
+      internalID: -1383716403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_22
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 752
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd67bbb6e82c416aace795cbafa45aa
+      internalID: -1189906962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_23
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 752
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5b2b9a0d3894bcebea75835c572d6f
+      internalID: 1368178897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_24
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 592
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d15c05faddf44f42b88e4ff8adf4132
+      internalID: -698468795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_25
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 592
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa816d9e810574d7aa7e1ed4aa0ec98a
+      internalID: 1478669883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 592
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4bd672df5bf4f0890d162a56fc5e97
+      internalID: 1234681107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_27
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 592
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11aebd23439d14966ab2451581ca4255
+      internalID: -1286072753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_28
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 592
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28587990c3564304bfc8db0e2d62f11
+      internalID: -68877002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_29
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 592
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c400423cf6e443890e031bb3234995
+      internalID: -470033538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_30
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 592
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bbc9559c3164164b9e29220f758b0e
+      internalID: -1203710611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_31
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 592
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e02df32acc344210a1cc79ca34719f6
+      internalID: 367390403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_32
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 432
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5adce207a3b45e0bda7cb0bf35257e
+      internalID: 1851815248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_33
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 432
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e660e3c56a05243349ae443d5ab909dd
+      internalID: 2048762417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_34
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 432
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09a55491fe044b4a9d90259e933cc19
+      internalID: 1221699022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_35
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 432
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a8e1bf3ed6c4f56972a62a4a75b6a3
+      internalID: 453216350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_36
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 432
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a285fa33bf6bc473b95ec1e246cfc686
+      internalID: 1704382690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_37
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 432
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d4c75811df2469d8ed60faa61eaa1d
+      internalID: 680927014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_38
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 432
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaee91d2199eb4cf0b440a73054131ac
+      internalID: 969898367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_39
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 432
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac26c24102514e688b7dcfbc76ca4d3
+      internalID: 279157600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 272
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1589f56b1dea14a22b13edc8e108be75
+      internalID: 866143112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_41
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 272
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926a0d92632ec4265b4b3e1c7a409f29
+      internalID: 610237293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_42
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 272
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e495cbb36f34b208e411961a69a9a5
+      internalID: 723691237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_43
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 272
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0e8d7a16cfd407fb43532fb47521e5
+      internalID: -1165362266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_44
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 272
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f797a90a83df848cdbfbdc969e7f072e
+      internalID: -1323840989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_45
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 272
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75a31eae0145435386eed93cadb088d
+      internalID: -683568566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_46
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 272
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed47d7546af654cbab8e8248968dfbc3
+      internalID: 1670765691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_47
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 272
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5d3710da51343b0a2694dd1c5fc659
+      internalID: 572221211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_48
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 112
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5a04b1ba3dd4c7b813b1a5bbcae244
+      internalID: 2123077737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fourDirectionalWatering_49
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 112
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a4cc5ca898c43d3bd8eacc87de4362
+      internalID: 286663756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fe0b5249e063348f3ad4385fb073efc1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      fourDirectionalWatering_0: 1085563959
+      fourDirectionalWatering_1: -852160351
+      fourDirectionalWatering_10: 1974807077
+      fourDirectionalWatering_11: 1525032149
+      fourDirectionalWatering_12: -989339227
+      fourDirectionalWatering_13: -561938486
+      fourDirectionalWatering_14: -651358744
+      fourDirectionalWatering_15: 1144361336
+      fourDirectionalWatering_16: 1116556954
+      fourDirectionalWatering_17: 36110064
+      fourDirectionalWatering_18: 1366380390
+      fourDirectionalWatering_19: -551056856
+      fourDirectionalWatering_2: -1856339283
+      fourDirectionalWatering_20: -983378150
+      fourDirectionalWatering_21: -1383716403
+      fourDirectionalWatering_22: -1189906962
+      fourDirectionalWatering_23: 1368178897
+      fourDirectionalWatering_24: -698468795
+      fourDirectionalWatering_25: 1478669883
+      fourDirectionalWatering_26: 1234681107
+      fourDirectionalWatering_27: -1286072753
+      fourDirectionalWatering_28: -68877002
+      fourDirectionalWatering_29: -470033538
+      fourDirectionalWatering_3: 1045757937
+      fourDirectionalWatering_30: -1203710611
+      fourDirectionalWatering_31: 367390403
+      fourDirectionalWatering_32: 1851815248
+      fourDirectionalWatering_33: 2048762417
+      fourDirectionalWatering_34: 1221699022
+      fourDirectionalWatering_35: 453216350
+      fourDirectionalWatering_36: 1704382690
+      fourDirectionalWatering_37: 680927014
+      fourDirectionalWatering_38: 969898367
+      fourDirectionalWatering_39: 279157600
+      fourDirectionalWatering_4: 527723378
+      fourDirectionalWatering_40: 866143112
+      fourDirectionalWatering_41: 610237293
+      fourDirectionalWatering_42: 723691237
+      fourDirectionalWatering_43: -1165362266
+      fourDirectionalWatering_44: -1323840989
+      fourDirectionalWatering_45: -683568566
+      fourDirectionalWatering_46: 1670765691
+      fourDirectionalWatering_47: 572221211
+      fourDirectionalWatering_48: 2123077737
+      fourDirectionalWatering_49: 286663756
+      fourDirectionalWatering_5: 746696913
+      fourDirectionalWatering_6: -419963820
+      fourDirectionalWatering_7: 1180067930
+      fourDirectionalWatering_8: -462705780
+      fourDirectionalWatering_9: 623098933
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
