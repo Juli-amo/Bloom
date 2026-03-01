@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da5d0989e4dd274f94214c0bb06996e, type: 3}
+  m_Name: Plant5
+  m_EditorClassIdentifier: Assembly-CSharp::PlantData
+  plantId: plant_05
+  seedItem: {fileID: 11400000, guid: 0133f8ef1b619e34296bd8649a276107, type: 2}
+  harvestItem: {fileID: 11400000, guid: 67587319f6b498a4c8e8fdb87502b31d, type: 2}
+  harvestAmount: 1
+  growthFrames:
+  - {fileID: -4929760306406352975, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: -8714381456556568462, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: 4213208980406718889, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: -30914496873584804, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: 3051346316392209777, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: -271850121597264270, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  decayFrames:
+  - {fileID: 3325371841249355041, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: 131429861953090782, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: -471755235198675782, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: 7429809382745808285, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  timeToGrow: 10
+  timeToStartDecay: 6
+  timeToFullyDecay: 8
+  talkBoostPercent: 25

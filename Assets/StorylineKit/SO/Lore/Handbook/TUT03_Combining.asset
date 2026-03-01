@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9726ab276dd67d04dbc479d388284ff9, type: 3}
+  m_Name: TUT03_Combining
+  m_EditorClassIdentifier: Assembly-CSharp::LoreEntry
+  id: TUT03
+  type: 0
+  title: The Guide
+  subtitle: Making do
+  body: "I don\u2019t have much, but I can still make something out of what I find.\r\n\r\nSome
+    items fit together like they were meant to.\r\nNot a recipe, more like a feeling.\r\n\r\nIf
+    I\u2019m stuck, I should try combining what I\u2019ve collected.\r\nEven scraps
+    might become useful."
+  unlockHint: 
+  icon: {fileID: 0}

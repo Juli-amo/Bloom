@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da5d0989e4dd274f94214c0bb06996e, type: 3}
+  m_Name: Plant2
+  m_EditorClassIdentifier: Assembly-CSharp::PlantData
+  plantId: plant_02
+  seedItem: {fileID: 11400000, guid: e516669a55addac40ab0f384b2b9058d, type: 2}
+  harvestItem: {fileID: 11400000, guid: 72ad45260dde7f44e89f9037b2a24f4b, type: 2}
+  harvestAmount: 1
+  growthFrames:
+  - {fileID: -6811106618440644276, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: 2410846946672222073, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: -238422714017754191, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: 2853305254300047247, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: -2226792614520396154, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: -7807289936539944749, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: -8657480310513403101, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: 2478201566999863911, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  - {fileID: 6955701886964745029, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}
+  decayFrames:
+  - {fileID: 3121354060326417810, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: 4881449523151135758, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: -721717018018433512, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: 2020194650689444871, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: 4348120986348599069, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: 2812471424069962582, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: -142537684892707739, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: -3116410626576639450, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  - {fileID: -209676733383980792, guid: d52accd932688424eafd065ac52c43e9, type: 3}
+  timeToGrow: 10
+  timeToStartDecay: 6
+  timeToFullyDecay: 8
+  talkBoostPercent: 25

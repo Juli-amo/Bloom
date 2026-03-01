@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff70f56f86717f4395457a437b93911, type: 3}
+  m_Name: HoeDensewood
+  m_EditorClassIdentifier: Assembly-CSharp::ItemType
+  itemName: Densewood Hoe
+  icon: {fileID: -2364083808433668028, guid: 1dd5a6d8c56ebb9439f9cd3edb03fa74, type: 3}
+  maxStackSize: 1

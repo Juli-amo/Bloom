@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0dd8a6e573bb045ab5e712efe3db31, type: 3}
+  m_Name: TEST_02
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSequence
+  lines:
+  - text: 'STORY ONLY: this should fill the entire box, and the panel should switch
+      to the story-only background.'
+    portrait: {fileID: 5330126149205626601, guid: bba474962a2a1df4184079ee308b963a, type: 3}
+    showPortrait: 1

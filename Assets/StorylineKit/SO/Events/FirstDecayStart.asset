@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1c64384c54fd742b1b9fd82a3ae5c0, type: 3}
+  m_Name: FirstDecayStart
+  m_EditorClassIdentifier: Assembly-CSharp::StoryEvent
+  eventId: first_decay_start
+  conditionType: 0
+  triggerId: 
+  counterKey: 
+  counterMinValue: 1
+  sequence: {fileID: 11400000, guid: a82862fced8ed7640ab68ca0c1ee6aaf, type: 2}
+  playOnlyOnce: 1
+  autoSaveAfter: 1

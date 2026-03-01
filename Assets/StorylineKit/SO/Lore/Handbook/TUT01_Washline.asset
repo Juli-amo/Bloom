@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9726ab276dd67d04dbc479d388284ff9, type: 3}
+  m_Name: TUT01_Washline
+  m_EditorClassIdentifier: Assembly-CSharp::LoreEntry
+  id: TUT01
+  type: 0
+  title: My Guide
+  subtitle: The shore
+  body: "I woke up with sand in my mouth and salt in my lungs.\r\n\r\nMy backpack
+    is empty.\r\nNo tools. No food. Nothing but the sound of water pulling at the
+    stones.\r\n\r\nI can still move.\r\nI can still reach out and take what I find.\r\n\r\nMOVE
+    \u2014 WASD\r\nINTERACT \u2014 E\r\nNEXT / SKIP \u2014 SPACE\r\n\r\nIf the island
+    took my tools, it can give them back.\r\nI just have to find where it decided
+    to drop them."
+  unlockHint: 
+  icon: {fileID: 0}
