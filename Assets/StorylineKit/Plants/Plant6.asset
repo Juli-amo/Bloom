@@ -29,7 +29,7 @@ MonoBehaviour:
   - {fileID: 3371541761979312524, guid: d52accd932688424eafd065ac52c43e9, type: 3}
   - {fileID: 8928665477532592504, guid: d52accd932688424eafd065ac52c43e9, type: 3}
   - {fileID: 3100833878339097158, guid: d52accd932688424eafd065ac52c43e9, type: 3}
-  timeToGrow: 10
-  timeToStartDecay: 6
-  timeToFullyDecay: 8
+  timeToGrow: 100
+  timeToStartDecay: 140
+  timeToFullyDecay: 240
   talkBoostPercent: 25

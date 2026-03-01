@@ -37,6 +37,7 @@ public class HotbarUI : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3)) inventory.SelectSlot(2);
         if (Input.GetKeyDown(KeyCode.Alpha4)) inventory.SelectSlot(3);
         if (Input.GetKeyDown(KeyCode.Alpha5)) inventory.SelectSlot(4);
+        if (Input.GetKeyDown(KeyCode.Alpha6)) inventory.SelectSlot(5);
     }
 
     void Refresh()

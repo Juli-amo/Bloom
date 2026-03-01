@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ff70f56f86717f4395457a437b93911, type: 3}
-  m_Name: Harvest6
+  m_Name: BraveToadHarvest
   m_EditorClassIdentifier: Assembly-CSharp::ItemType
   itemName: Dirt Flower
   icon: {fileID: -7226567595312365458, guid: 6323b3116bbfcd44c9047f2602d1159a, type: 3}

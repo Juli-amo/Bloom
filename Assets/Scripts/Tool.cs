@@ -1,21 +1,35 @@
 using UnityEngine;
 
-
 public enum Tool
 {
     None = -1,
+    
+    // --- Standard Aktion ---
     Hand = 0,
-    Hoe = 1,          // umgraben
-    Seeds = 2,        // pflanzen (stackbar)
-    WateringCan = 3,  // gießen
-    Axe = 4,          // Bäume fällen
-    Pickaxe = 5,      // Felsen abbauen
-    Wood = 6,         // Ressource (stackbar)
-    Stone = 7,         // Ressource (stackbar)
-    AxeDense = 1,
-    AxeCrystal = 1,
-    HoeDense = 1,
-    HoeWood = 1,
-    Sickle = 1
 
+    // --- Basis Werkzeuge ---
+    Hoe = 1,          // umgraben
+    WateringCan = 2,  // gießen
+    Axe = 3,          // Bäume fällen
+    Pickaxe = 4,      // Felsen abbauen
+    Sickle = 5,       // Gras/Ernte schneiden
+
+    // --- Upgrade Werkzeuge (Holz) ---
+    HoeWood = 10,
+    SpadeWood = 11,   // Neu: Holzspaten
+    AxeWood = 12,
+    PickaxeWood = 13,
+    SickleWood = 14,
+
+    // --- Upgrade Werkzeuge (Dense / Crystal) ---
+    HoeDense = 20,
+    AxeDense = 21,
+    AxeCrystal = 22,
+    PickaxeDense = 23,
+    SickleDense = 24,
+
+    // --- Items & Ressourcen ---
+    Seeds = 50,       // pflanzen (stackbar)
+    Wood = 51,        // Ressource (stackbar)
+    Stone = 52        // Ressource (stackbar)
 }

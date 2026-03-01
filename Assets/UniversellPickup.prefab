@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6910528099634047887}
   - component: {fileID: 225691143243879419}
   - component: {fileID: 6496707036886458477}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: UniversellPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,10 +71,10 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.5, y: 0.5}
-    newSize: {x: 0.5, y: 0.5}
-    adaptiveTilingThreshold: 0.5
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemPickupInteractable
   item: {fileID: 0}
   amount: 1
-  destroyAfterPickup: 0
+  destroyAfterPickup: 1
 --- !u!212 &6496707036886458477
 SpriteRenderer:
   serializedVersion: 2
@@ -142,15 +142,15 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 591319917, guid: 9e109876c2a5b48ff99798eefb23a2e5, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0

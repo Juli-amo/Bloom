@@ -30,6 +30,12 @@ public class PlantSystem : MonoBehaviour, IInteractable
     public bool enableHarvest = true;
     public bool resetToUntilledAfterHarvest = true;
 
+    [Header("Individuelle Zeiten (Überschreibt PlantData, falls > 0)")]
+    [Tooltip("Zeit in Sekunden für jede Stufe. Leer lassen für Standardwerte aus PlantData.")]
+    public float[] customStageGrowthTimes;
+    [Tooltip("Zeit bis die Pflanze anfängt zu vertrocknen. Auf 0 lassen für PlantData-Werte.")]
+    public float customTimeToStartDecay;
+
     [Header("Status (Playmode)")]
     public bool isTilled = false;
     public bool hasSeed = false;
@@ -74,11 +80,21 @@ public class PlantSystem : MonoBehaviour, IInteractable
             dryTimer = 0f;
             if (currentPlant.growthFrames != null && growthStage < currentPlant.growthFrames.Length - 1) {
                 growthTimer += Time.deltaTime;
-                if (growthTimer >= currentPlant.timeToGrow) GrowToNextStage();
+                
+                // NEU: Eigene Zeiten prüfen, sonst PlantData nehmen
+                float timeToGrow = (customStageGrowthTimes != null && growthStage < customStageGrowthTimes.Length && customStageGrowthTimes[growthStage] > 0) 
+                                    ? customStageGrowthTimes[growthStage] 
+                                    : currentPlant.timeToGrow;
+
+                if (growthTimer >= timeToGrow) GrowToNextStage();
             }
         } else {
             dryTimer += Time.deltaTime;
-            if (!isDecaying && dryTimer >= currentPlant.timeToStartDecay) { isDecaying = true; decayTimer = 0f; }
+            
+            // NEU: Eigene Decay-Zeit prüfen, sonst PlantData nehmen
+            float timeToDecay = customTimeToStartDecay > 0 ? customTimeToStartDecay : currentPlant.timeToStartDecay;
+            
+            if (!isDecaying && dryTimer >= timeToDecay) { isDecaying = true; decayTimer = 0f; }
             if (isDecaying) {
                 decayTimer += Time.deltaTime;
                 UpdateDecayVisual();
@@ -95,9 +111,16 @@ public class PlantSystem : MonoBehaviour, IInteractable
         bool isHoldingWateringCan = toolInHand == Tool.WateringCan;
         bool isEmptyHand = toolInHand == Tool.None || toolInHand == Tool.Hand;
         bool isHoldingSeed = toolInHand == Tool.Seeds;
+        
+        // NEU: Sichel-Überprüfung
+        bool isHoldingSickle = toolInHand == Tool.Sickle || toolInHand == Tool.SickleWood || toolInHand == Tool.SickleDense;
 
         if (enableHarvest && CanHarvest()) {
-            if (isEmptyHand) Harvest();
+            if (isHoldingSickle) {
+                Harvest();
+            } else {
+                Debug.Log("Du brauchst eine Sichel, um das zu ernten!");
+            }
             return;
         }
         if (!isTilled) {
@@ -143,9 +166,15 @@ public class PlantSystem : MonoBehaviour, IInteractable
 
     private void TalkBoost() {
         if (currentPlant == null || isDecaying) return;
-        growthTimer += currentPlant.timeToGrow * (currentPlant.talkBoostPercent / 100f);
+
+        // Anpassung für eigene Zeiten beim Boost
+        float timeToGrow = (customStageGrowthTimes != null && growthStage < customStageGrowthTimes.Length && customStageGrowthTimes[growthStage] > 0) 
+                            ? customStageGrowthTimes[growthStage] 
+                            : currentPlant.timeToGrow;
+
+        growthTimer += timeToGrow * (currentPlant.talkBoostPercent / 100f);
         if (currentPlant.growthFrames != null && growthStage < currentPlant.growthFrames.Length - 1) {
-            if (growthTimer >= currentPlant.timeToGrow) GrowToNextStage();
+            if (growthTimer >= timeToGrow) GrowToNextStage();
         }
     }
 

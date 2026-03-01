@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TallGrass
   m_EditorClassIdentifier: Assembly-CSharp::ItemType
   itemName: Tall Grass
-  icon: {fileID: 1425836524, guid: 023460a2ad97047feaba8d13767baf1f, type: 3}
-  worldSprite: {fileID: 1425836524, guid: 023460a2ad97047feaba8d13767baf1f, type: 3}
+  icon: {fileID: -4438936822658822738, guid: 1dd5a6d8c56ebb9439f9cd3edb03fa74, type: 3}
+  worldSprite: {fileID: 0}
   maxStackSize: 120
