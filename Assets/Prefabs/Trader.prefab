@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4972175223797093310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1600692090644066116}
+  - component: {fileID: 136745083566768652}
+  - component: {fileID: 8229780390127020900}
+  - component: {fileID: 8337001488057172470}
+  - component: {fileID: 6418769026840111142}
+  - component: {fileID: 1771703013176994517}
+  m_Layer: 6
+  m_Name: Trader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1600692090644066116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4972175223797093310}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &136745083566768652
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4972175223797093310}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -195122802, guid: bdc9067e2438f431c88059b6c97333de, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.1875, y: 1.4375}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!114 &8229780390127020900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4972175223797093310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63d7f425a0ca4f56995526a71bac7b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  moveSpeed: 2
+  minWaitTime: 2
+  maxWaitTime: 5
+  wanderRadius: 10
+  homePosition: {x: 0, y: 0}
+  chanceToReturnHome: 0.3
+  trader_0: {fileID: 1495745476, guid: bdc9067e2438f431c88059b6c97333de, type: 3}
+  trader_1: {fileID: 851528486, guid: bdc9067e2438f431c88059b6c97333de, type: 3}
+  trader_2: {fileID: -195122802, guid: bdc9067e2438f431c88059b6c97333de, type: 3}
+  trader_3: {fileID: 1201771773, guid: bdc9067e2438f431c88059b6c97333de, type: 3}
+--- !u!50 &8337001488057172470
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4972175223797093310}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &6418769026840111142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4972175223797093310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1720b41194164e468c118989210d1c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TraderNPC
+  firstMeetingDialog: {fileID: 11400000, guid: 4e90e87daad475c4d9c698801d41ff08, type: 2}
+  woodItem: {fileID: 11400000, guid: bdf76fd40ad90214086c75569499756c, type: 2}
+  seedShop:
+  - shopName: Aralis Seeds
+    seedItem: {fileID: 11400000, guid: 78114b5a33768f94ebed9b5d1fc07dfc, type: 2}
+    woodCost: 10
+    isUnlocked: 1
+    requiredHarvest: {fileID: 0}
+    requiredHarvestAmount: 0
+    unlockSuccessDialog: {fileID: 0}
+    unlockHintDialog: {fileID: 0}
+    buySuccessDialog: {fileID: 11400000, guid: 17b0e32eb9d221f44bf0bd99901dbf6b, type: 2}
+    buyFailDialog: {fileID: 11400000, guid: d6f94dc50066ddc4d98e9bfb4516ee49, type: 2}
+    offerInfoDialog: {fileID: 11400000, guid: e27a92bf49287084cb0a13ef9d9072a7, type: 2}
+  - shopName: Brave Toad Seeds
+    seedItem: {fileID: 11400000, guid: 6702bacb6abfa3c4bba876399ed4e71a, type: 2}
+    woodCost: 15
+    isUnlocked: 0
+    requiredHarvest: {fileID: 11400000, guid: f6db41ba7beb6ee47bebaa73353badf2, type: 2}
+    requiredHarvestAmount: 1
+    unlockSuccessDialog: {fileID: 11400000, guid: 430d53a788de1bf4bb32fb94d3a5f0be, type: 2}
+    unlockHintDialog: {fileID: 11400000, guid: 2caee7816ca8f1c4bb5453c28f5b6fcf, type: 2}
+    buySuccessDialog: {fileID: 11400000, guid: 2f7bfb0b9d8c11b41afc9f6f42523af5, type: 2}
+    buyFailDialog: {fileID: 11400000, guid: 91d39978da063d540a5f92a7e8af44bc, type: 2}
+    offerInfoDialog: {fileID: 11400000, guid: 1b295695200935641bd0e29193291ea2, type: 2}
+  - shopName: Casper Seeds
+    seedItem: {fileID: 11400000, guid: e516669a55addac40ab0f384b2b9058d, type: 2}
+    woodCost: 20
+    isUnlocked: 0
+    requiredHarvest: {fileID: 11400000, guid: 6702bacb6abfa3c4bba876399ed4e71a, type: 2}
+    requiredHarvestAmount: 2
+    unlockSuccessDialog: {fileID: 11400000, guid: 81ef2fb5c549af843ad0b2ca749d45a3, type: 2}
+    unlockHintDialog: {fileID: 11400000, guid: d9e1c91e87b6a7542beef7d2532bd91b, type: 2}
+    buySuccessDialog: {fileID: 11400000, guid: 0bf4c4703b548244986d22bfd13ace68, type: 2}
+    buyFailDialog: {fileID: 11400000, guid: 1001ee3c1f4e19943995c4d0b86fee0c, type: 2}
+    offerInfoDialog: {fileID: 11400000, guid: 884069d5280944c419ee40040a22939a, type: 2}
+  - shopName: Cowhive Seeds
+    seedItem: {fileID: 11400000, guid: d61dd25aca341ed4cbb66a7d674a2f1a, type: 2}
+    woodCost: 25
+    isUnlocked: 0
+    requiredHarvest: {fileID: 11400000, guid: e516669a55addac40ab0f384b2b9058d, type: 2}
+    requiredHarvestAmount: 3
+    unlockSuccessDialog: {fileID: 11400000, guid: f6ae749d20ae3244aa150b358f816c1c, type: 2}
+    unlockHintDialog: {fileID: 11400000, guid: 108c329d5f2044949bd2bafd8d05d3f3, type: 2}
+    buySuccessDialog: {fileID: 11400000, guid: 000568abc9306fb47a448bed5d4a2a31, type: 2}
+    buyFailDialog: {fileID: 11400000, guid: 3cfb173c6218bbb4b97c54246f3299e8, type: 2}
+    offerInfoDialog: {fileID: 11400000, guid: 8c0239ddff50d864f93956e66ace4dbf, type: 2}
+  - shopName: Graytsy Seeds
+    seedItem: {fileID: 11400000, guid: 26aa5a34fbea0114b8a02823935d851c, type: 2}
+    woodCost: 30
+    isUnlocked: 0
+    requiredHarvest: {fileID: 11400000, guid: d61dd25aca341ed4cbb66a7d674a2f1a, type: 2}
+    requiredHarvestAmount: 4
+    unlockSuccessDialog: {fileID: 11400000, guid: 92060a6159a655e408504f36db035c9c, type: 2}
+    unlockHintDialog: {fileID: 11400000, guid: 45956d2b604bf8742bfed4996c70eea7, type: 2}
+    buySuccessDialog: {fileID: 11400000, guid: 6761558c2b3aaea4d9ba1723d7d6ab16, type: 2}
+    buyFailDialog: {fileID: 11400000, guid: 6f6a085895de78946b3b321bae59e726, type: 2}
+    offerInfoDialog: {fileID: 11400000, guid: 4cfb9bf67e635be4b8cbb19e0e422a8c, type: 2}
+  - shopName: Crying Lassy Seeds
+    seedItem: {fileID: 11400000, guid: 0133f8ef1b619e34296bd8649a276107, type: 2}
+    woodCost: 60
+    isUnlocked: 0
+    requiredHarvest: {fileID: 11400000, guid: 26aa5a34fbea0114b8a02823935d851c, type: 2}
+    requiredHarvestAmount: 5
+    unlockSuccessDialog: {fileID: 11400000, guid: 920b947f3ebc617448344a2a33e15f68, type: 2}
+    unlockHintDialog: {fileID: 11400000, guid: 0c22e51f7d35d944eb41f0ce927cda0b, type: 2}
+    buySuccessDialog: {fileID: 11400000, guid: aa67c06a18cac264f9a213b4b3eaf40d, type: 2}
+    buyFailDialog: {fileID: 11400000, guid: 1e3500940a105ee4897b96e99e1ebc6a, type: 2}
+    offerInfoDialog: {fileID: 11400000, guid: dc3f9670520fc854685efb459faf3744, type: 2}
+  giveItemsOnStart: 1
+  debugStartItems:
+  - item: {fileID: 11400000, guid: bdf76fd40ad90214086c75569499756c, type: 2}
+    amount: 100
+  - item: {fileID: 11400000, guid: f6db41ba7beb6ee47bebaa73353badf2, type: 2}
+    amount: 30
+  - item: {fileID: 11400000, guid: 72ad45260dde7f44e89f9037b2a24f4b, type: 2}
+    amount: 30
+  - item: {fileID: 11400000, guid: 2c5a3667a759a984da9127c0aa950ca3, type: 2}
+    amount: 30
+  - item: {fileID: 11400000, guid: cff70a9d4b17a0d4e8d1c5ac625b9902, type: 2}
+    amount: 30
+  - item: {fileID: 11400000, guid: cff70a9d4b17a0d4e8d1c5ac625b9902, type: 2}
+    amount: 30
+--- !u!61 &1771703013176994517
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4972175223797093310}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1875, y: 1.4375}
+    newSize: {x: 1.1875, y: 1.4375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.1875, y: 1.4375}
+  m_EdgeRadius: 0
