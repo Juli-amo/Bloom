@@ -45,7 +45,7 @@ TagManager:
   - name: Ground
     uniqueID: 3609055911
     locked: 0
-  - name: Player
+  - name: Player and Objects
     uniqueID: 1441229641
     locked: 0
   m_RenderingLayers:
