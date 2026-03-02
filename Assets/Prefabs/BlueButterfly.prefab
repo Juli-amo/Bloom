@@ -83,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -973492442, guid: e1d01e7119f214eba8d69e34c9782a02, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -136,6 +136,10 @@ MonoBehaviour:
   hoverAmp: 0.05
   hoverFreq: 1
   stepRadius: 1
+  fleeRadius: 1.2
+  fleeSpeed: 1.5
+  fleeDuration: 1.5
+  playerTag: Player
 --- !u!50 &8343302999050775314
 Rigidbody2D:
   serializedVersion: 5

@@ -12,7 +12,7 @@ public class Tree_Spawner : MonoBehaviour
     public Tilemap[] grassTilemaps;
 
     [Header("Abstand zwischen Bäumen")]
-    public float minDistance = 1.5f; // <-- Das hier im Inspector anpassen!
+    public float minDistance = 1.5f;
 
     [System.Serializable]
     public struct ForbiddenZone
@@ -22,7 +22,7 @@ public class Tree_Spawner : MonoBehaviour
     }
     public ForbiddenZone[] forbiddenZones;
 
-    private List<Vector2> spawnedPositions = new List<Vector2>(); // NEU
+    private List<Vector2> spawnedPositions = new List<Vector2>();
 
     void Start()
     {
@@ -43,14 +43,21 @@ public class Tree_Spawner : MonoBehaviour
                 Random.Range(spawnAreaMin.y, spawnAreaMax.y)
             );
 
-            if (IsOnGrass(randomPos) && !IsInForbiddenZone(randomPos) && !IsTooClose(randomPos)) // NEU
+            if (IsOnGrass(randomPos) && !IsInForbiddenZone(randomPos) && !IsTooClose(randomPos))
             {
                 GameObject tree = Instantiate(treePrefab, randomPos, Quaternion.identity);
+
                 SpriteRenderer sr = tree.GetComponent<SpriteRenderer>();
                 if (sr != null && treeSprites.Length > 0)
                     sr.sprite = treeSprites[Random.Range(0, treeSprites.Length)];
 
-                spawnedPositions.Add(randomPos); // NEU
+                if (sr != null)
+                {
+                    float feetY = randomPos.y - sr.bounds.extents.y;
+                    sr.sortingOrder = Mathf.RoundToInt(-feetY * 10);
+                }
+
+                spawnedPositions.Add(randomPos);
                 spawned++;
             }
         }
@@ -58,7 +65,6 @@ public class Tree_Spawner : MonoBehaviour
         Debug.Log($"{spawned} Bäume gespawnt nach {attempts} Versuchen");
     }
 
-    // NEU
     bool IsTooClose(Vector2 pos)
     {
         foreach (Vector2 existing in spawnedPositions)

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 950265391406217672}
   - component: {fileID: 1919236971548475955}
   - component: {fileID: 7306563517675984531}
+  - component: {fileID: 3656688038514239854}
   m_Layer: 6
   m_Name: Tree
   m_TagString: Untagged
@@ -81,7 +82,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 114511951, guid: 49d5f548bafac4ed6b735c749b2a4445, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -92,7 +93,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!61 &1919236971548475955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -154,3 +155,40 @@ MonoBehaviour:
   hitsToFell: 5
   woodYield: 2
   woodItem: {fileID: 11400000, guid: bdf76fd40ad90214086c75569499756c, type: 2}
+--- !u!70 &3656688038514239854
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4776469634096235740}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 2.59375, y: 2.9375}
+  m_Direction: 0

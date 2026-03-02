@@ -45,9 +45,17 @@ public class TallGrass_Spawner : MonoBehaviour
                 Random.Range(spawnAreaMin.y, spawnAreaMax.y)
             );
 
-            if (IsOnGrass(randomPos) && !IsInForbiddenZone(randomPos) && !IsTooClose(randomPos))
+            if (!IsInForbiddenZone(randomPos) && !IsTooClose(randomPos))
             {
-                Instantiate(tallGrassPrefab, randomPos, Quaternion.identity);
+                GameObject grass = Instantiate(tallGrassPrefab, randomPos, Quaternion.identity);
+
+                SpriteRenderer sr = grass.GetComponent<SpriteRenderer>();
+                if (sr != null)
+                {
+                    float feetY = randomPos.y - sr.bounds.extents.y;
+                    sr.sortingOrder = Mathf.RoundToInt(-feetY * 10);
+                }
+
                 spawnedPositions.Add(randomPos);
                 spawned++;
             }
@@ -75,16 +83,6 @@ public class TallGrass_Spawner : MonoBehaviour
                 pos.y > zone.center.y - zone.size.y / 2 &&
                 pos.y < zone.center.y + zone.size.y / 2)
                 return true;
-        }
-        return false;
-    }
-
-    bool IsOnGrass(Vector2 worldPosition)
-    {
-        foreach (Tilemap tilemap in grassTilemaps)
-        {
-            Vector3Int cellPos = tilemap.WorldToCell(worldPosition);
-            if (tilemap.HasTile(cellPos)) return true;
         }
         return false;
     }
