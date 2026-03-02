@@ -7,14 +7,13 @@ public class DayNightOverlay : MonoBehaviour
     public GameTimeManager timeManager;
     public Image overlayImage;
 
-    [Header("Helligkeit")]
-    [Tooltip("0.0 = Mitternacht, 0.5 = Mittag")]
+    [Header("Tageszeiten")]
     public float sunriseTime = 0.25f;  // 6:00 Uhr
     public float sunsetTime = 0.75f;   // 18:00 Uhr
-    public float transitionDuration = 0.05f; // Wie schnell der Übergang ist
 
     [Header("Dunkelheit")]
-    [Range(0, 1)] public float maxDarkness = 0.85f; // Wie dunkel die Nacht ist
+    [Range(0, 1)] public float maxDarkness = 0.85f;
+    public float fadeSpeed = 0.5f; // Übergangsgeschwindigkeit
 
     void Start()
     {
@@ -29,28 +28,34 @@ public class DayNightOverlay : MonoBehaviour
         float time = timeManager.GetNormalizedTime();
         float targetAlpha = CalculateDarkness(time);
 
-        // Sanfter Übergang
         Color c = overlayImage.color;
-        c.a = Mathf.Lerp(c.a, targetAlpha, transitionDuration);
+        c.a = Mathf.MoveTowards(c.a, targetAlpha, fadeSpeed * Time.deltaTime);
         overlayImage.color = c;
     }
 
     float CalculateDarkness(float time)
     {
-        // Tagsüber → hell
-        if (time >= sunriseTime && time <= sunsetTime)
+        float transitionLength = 0.05f; // 5% des Tages = ca. 1 Stunde Übergang
+
+        // Sonnenaufgang
+        if (time >= sunriseTime && time <= sunriseTime + transitionLength)
         {
-            // Sonnenaufgang: dunkel → hell
-            if (time < sunriseTime + transitionDuration * 2)
-                return Mathf.Lerp(maxDarkness, 0, (time - sunriseTime) / (transitionDuration * 2));
-
-            // Sonnenuntergang: hell → dunkel
-            if (time > sunsetTime - transitionDuration * 2)
-                return Mathf.Lerp(0, maxDarkness, (time - (sunsetTime - transitionDuration * 2)) / (transitionDuration * 2));
-
-            return 0f; // Vollständig hell
+            float t = (time - sunriseTime) / transitionLength;
+            return Mathf.Lerp(maxDarkness, 0f, t);
         }
 
-        return maxDarkness; // Nacht
+        // Voller Tag
+        if (time > sunriseTime + transitionLength && time < sunsetTime - transitionLength)
+            return 0f; // Komplett transparent
+
+        // Sonnenuntergang
+        if (time >= sunsetTime - transitionLength && time <= sunsetTime)
+        {
+            float t = (time - (sunsetTime - transitionLength)) / transitionLength;
+            return Mathf.Lerp(0f, maxDarkness, t);
+        }
+
+        // Nacht
+        return maxDarkness;
     }
 }

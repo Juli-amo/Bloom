@@ -8,7 +8,7 @@ public class GameTimeManager : MonoBehaviour
 
     [Header("Info (Nur lesen)")]
     [Range(0, 1)] 
-    public float dayProgress = 0f; // 0.0 = Mitternacht, 0.5 = Mittag, 1.0 = Mitternacht
+    public float dayProgress = 0.5f; // 0.0 = Mitternacht, 0.5 = Mittag, 1.0 = Mitternacht
     public int hours;
     public int minutes;
 
