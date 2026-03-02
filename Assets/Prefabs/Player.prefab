@@ -86,8 +86,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1441229641
+  m_SortingLayer: 2
   m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1672629949878909941, guid: 792c07a74e70140e3a581004d5d41860, type: 3}
@@ -206,9 +206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f75b9ffc153a47eeb30e08fa7b46aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ToolManager
-  clearHotbarOnPlay: 1
-  maxSlots: 7
-  index: 0
 --- !u!95 &5926294805415810556
 Animator:
   serializedVersion: 7

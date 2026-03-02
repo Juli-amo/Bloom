@@ -1,5 +1,5 @@
 using UnityEngine;
-public class Player_Layering : MonoBehaviour
+public class ObjectYSort : MonoBehaviour
 {
     private SpriteRenderer sr;
     void Awake()
@@ -8,8 +8,7 @@ public class Player_Layering : MonoBehaviour
     }
     void Update()
     {
-        // Unterer Rand des Players als Referenzpunkt
         float bottomY = sr.bounds.min.y;
-        sr.sortingOrder = Mathf.RoundToInt(-bottomY * 10);
+        sr.sortingOrder = Mathf.RoundToInt(-bottomY * 10) + 5;
     }
 }

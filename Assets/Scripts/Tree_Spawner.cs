@@ -51,12 +51,6 @@ public class Tree_Spawner : MonoBehaviour
                 if (sr != null && treeSprites.Length > 0)
                     sr.sprite = treeSprites[Random.Range(0, treeSprites.Length)];
 
-                if (sr != null)
-                {
-                    float feetY = randomPos.y - sr.bounds.extents.y;
-                    sr.sortingOrder = Mathf.RoundToInt(-feetY * 10);
-                }
-
                 spawnedPositions.Add(randomPos);
                 spawned++;
             }
