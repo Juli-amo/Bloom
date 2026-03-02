@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Sea_Tiles_An18
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: -614428449, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: 1693703224, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: -189947312, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: 1792054853, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: -1106615022, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: 404731874, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: -2096445526, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: -2127858263, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: 456387189, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: -1518648154, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: 730282521, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: 35702869, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: 2045214106, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: -618500988, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: -2075521370, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: 1990131579, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: 1024038152, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: -1766238299, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: -2091411580, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: 1480347746, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  - {fileID: -429177941, guid: 9e84204e3e457476dae1b7b5e2943c20, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

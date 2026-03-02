@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Sea_Tiles_An3
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 2036911372, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -2054207946, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 2083718934, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -1793967883, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1021493634, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 2086412574, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -1027730461, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -570960833, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -268984952, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -191523011, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -11121423, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 253564726, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 285967142, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1181864821, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -918750988, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1315217739, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -195622885, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 2094712149, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -2192885, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -1779693055, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -113460139, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -1305895305, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -137626272, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1473501115, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -408181739, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1081737406, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 609069948, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 649767057, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -1144447528, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -795920431, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 165011056, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 622029551, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -582923634, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -671068512, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1307034667, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 2004620614, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -1874710938, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1685107987, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 168951867, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -121315429, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1707552562, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1418090066, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1734969310, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -2098323280, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -1656400497, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -108974563, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -187510697, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1160619643, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 148073414, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 2006951389, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 948834382, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -1984547265, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: -168257896, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 1454236563, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  - {fileID: 630574478, guid: cd5c471650c7249f9800243d7482cd2e, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
