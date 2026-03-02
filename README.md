@@ -1,96 +1,115 @@
-# 🌸 Bloom  
-### Interactive 2D Environmental Storytelling Game
+# 🌸 Bloom: A Diegetic Farming & Storytelling Experience
 
-**Bloom** is an interactive 2D storytelling experience set in a living, evolving ecosystem.
-
-Players nurture plants, expand their technological capabilities, and observe how their decisions influence the environment. Over time, beauty, efficiency, industrialization, and invasive growth begin to reshape the world.
-
-Without using written dialogue, Bloom explores themes of:
-
-- Sustainability  
-- Technological ambition  
-- Ecological balance  
-- Greed and consequence  
-
-Every action leaves a trace.  
-The player ultimately chooses between preservation, acceleration, or restoration.
+**Bloom** is an atmospheric 2D storytelling experience set in a living, evolving ecosystem. As a gardener on a melancholic island, you navigate the delicate balance between nurturing nature and the relentless drive for technological progress.
 
 ---
 
-## 🪴 Core Ideas
+## Vision & Design Philosophy
 
-- 🌱 Environmental storytelling without text  
-- 🎨 Symbolic narrative through visuals, sound, and color  
-- ⚖️ Systems-driven consequences  
-- 🔄 A transforming ecosystem  
+Unlike traditional farming simulators, **Bloom** shies away from economic optimization and focuses on **Systemic Storytelling**:
+
+- **Narrative**  
+  The story is conveyed through the world itself, visual shifts and environmental discoveries (**Diary Fragments**)..
+
+- **Visual Symbiosis**  
+  Hand-crafted pixel art with a focus on **Y-sorting** and depth creates a dense 2D environment.
 
 ---
 
-## 🎮 Project Overview
+## 🎮 Key Features
 
-- Engine: Unity (2D)
-- Art Style: Pixel Art / Stylized Nature
-- Focus: Systemic storytelling & environmental feedback
+- **Dynamic Plant Growth**  
+  Six unique plant species with multiple growth and decay phases.
+
+- **Wandering Merchant**  
+  A dynamic NPC system featuring a trade-based progression gate.
+
+- **UI**  
+  A modular inventory system (**Backpack & Combining**) utilizing custom **Drag & Drop** logic.
+
+- **Interactive Lore**  
+  Environmental triggers and time-delayed diary fragments that reveal the island’s history.
+
+---
+
+## 🚀 Getting Started (Installation)
+
+To open and edit the project in Unity, follow these steps:
+
+### Prerequisites
+- Unity Hub installed  
+- Unity Editor **2022.3 LTS** (or newer)
+
+### Installation
+
+1) **Clone or download the repository**
+```bash
+git clone https://github.com/your-username/bloom-game.git
+```
+
+2) **Add the project to Unity Hub**
+- Open Unity Hub  
+- Click **Add → Add project from disk**  
+- Select the folder containing **ProjectSettings**
+
+3) **First launch**
+- Locate and open the scene **Startscene** under `Assets/Scenes/`  
+- Press **Play** to start from the main menu
+
+---
+
+## 🕹️ Controls
+
+| Key | Action |
+|---|---|
+| WASD / Arrow Keys | Character Movement |
+| E | Interact (Plant, Water, Talk, Read) |
+| B | Open/Close Backpack & Combining UI |
+| Scroll / 1-5 | Hotbar Selection |
+| Left Click | Drag & Drop Items in Inventory |
+| R (Debug) | Emergency UI/Camera Reset (Development only) |
+
+---
+
+## 🏗️ Technical Architecture
+
+The project uses a **Data-Driven Design** to ensure scalability:
+
+- **ScriptableObjects**  
+  All items, plants, and recipes are stored as assets, allowing balancing without code changes.
+
+- **Universal Pickups**  
+  A single modular prefab system that dynamically adapts its visuals and properties based on assigned item data.
+
+- **Event-Driven UI**  
+  The interface responds to events (e.g., `OnInventoryChanged`), optimizing performance by avoiding constant frame-by-frame queries.
 
 ---
 
 ## 🗂 Project Structure
-```
+
+```text
 Bloom/
-│
 ├── Assets/
-│   ├── Art/
-│   │   ├── Backgrounds/
-│   │   ├── Tiles/
-│   │   ├── Plants/
-│   │   ├── UI/
-│   │   └── Materials/
-│   │
-│   ├── Audio/
-│   │   ├── Music/
-│   │   └── SFX/
-│   │
-│   ├── Animations/
-│   │
-│   ├── Prefabs/
-│   │   ├── Plants/
-│   │   ├── Environment/
-│   │   └── UI/
-│   │
-│   ├── Scenes/
-│   │   ├── Title.unity
-│   │   ├── Garden.unity
-│   │   ├── Decision.unity
-│   │   └── Outcome.unity
-│   │
-│   ├── Scripts/
-│   │   ├── Core/
-│   │   ├── Systems/
-│   │   ├── Player/
-│   │   └── UI/
-│   │
-│   ├── ScriptableObjects/
-│   │   ├── Plants/
-│   │   ├── Balancing/
-│   │   └── VisualThemes/
-│   │
-│   └── ThirdParty/
-│
-├── Tests/
-│   ├── EditMode/
-│   └── PlayMode/
-│
-├── ProjectSettings/
-├── Packages/
+│   ├── Art/                # Sprites, Tilesets & UI Graphics
+│   ├── Audio/              # Music & Ambient Soundscapes
+│   ├── Prefabs/            # Modular Objects (Plants, Player, Plots)
+│   ├── Scenes/             # StartMenu & GameWorld
+│   ├── Scripts/            # C# Logic (Core, Systems, Player, UI)
+│   └── ScriptableObjects/  # Item Databases & Recipes
 └── README.md
 ```
+
 ---
 
-## 🌿 Design Philosophy
+## 👥 The Team
 
-Bloom is built around **systemic storytelling**:
+This project was developed as part of the **Interactive Storytelling** module at **Düsseldorf University of Applied Sciences (HSD)**, Winter Semester **2025/26**.
 
-- Growth reflects player intention.
-- Automation increases efficiency but impacts biodiversity.
-- Visual changes represent narrative consequences.
-- Sound design reinforces environmental shifts.
+- **Yunha Chang**: Tile Design | Plant Design | UI Design | Animations  
+- **Dalia Salih**: Programming (C#) | Core Loops | Storytelling  
+- **Venci Wang**: Tile Design | Tool Design | Crafting System | Animations  
+- **Julia Moor**: Programming (C#) | Worldbuilding | Audio  
+- **Instructor**: Prof. Kai Schröder  
+
+© 2026 Team Bloom. For academic purposes only.
