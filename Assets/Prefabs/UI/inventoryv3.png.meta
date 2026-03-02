@@ -1,7 +1,22 @@
 fileFormatVersion: 2
-guid: c25552a8dd9097b478adf8d5ddbeb0b9
+guid: 071b3a01b9bfe8f4eb78697af4eef2c7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -182162730361191244
+    second: inventoryv3_0
+  - first:
+      213: -3351022586082348339
+    second: inventoryv3_1
+  - first:
+      213: 5826012679746748315
+    second: inventoryv3_2
+  - first:
+      213: 576791078645275654
+    second: inventoryv3_3
+  - first:
+      213: 26712659498338219
+    second: inventoryv3_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +54,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -93,49 +108,128 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: texrbox_new_0
+      name: inventoryv3_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 226
-        height: 48
+        y: 28
+        width: 292
+        height: 132
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6ad0c60ed932c8546965d0217988ba2a
-      internalID: -1145607334
+      spriteID: 4b4818d36f3d87df0800000000000000
+      internalID: -182162730361191244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: texrbox_new_1
+      name: inventoryv3_1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 9
-        width: 33
-        height: 33
+        x: 303
+        y: 118
+        width: 27
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 16e3b83e9b819a349bf9f479bf903c73
-      internalID: 1578918178
+      spriteID: dc2304266b6ce71d0800000000000000
+      internalID: -3351022586082348339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventoryv3_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 87
+        width: 67
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ff9392aa72ad050800000000000000
+      internalID: 5826012679746748315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventoryv3_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 100
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c14481e6c210800800000000000000
+      internalID: 576791078645275654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventoryv3_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 28
+        width: 123
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba78764b507ee5000800000000000000
+      internalID: 26712659498338219
       vertices: []
       indices: 
       edges: []
@@ -144,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ec8996ccb935d92468c03a8ce704015b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -152,12 +246,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      texrbox_new_0: -1145607334
-      texrbox_new_1: 1578918178
+      inventoryv3_0: -182162730361191244
+      inventoryv3_1: -3351022586082348339
+      inventoryv3_2: 5826012679746748315
+      inventoryv3_3: 576791078645275654
+      inventoryv3_4: 26712659498338219
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

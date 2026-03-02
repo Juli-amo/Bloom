@@ -3,10 +3,12 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.EventSystems;
 
-public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler
+public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public Image icon;
     public TMP_Text amountText;
+
+    public Image highlightFrame; 
 
     [HideInInspector] public int slotIndex;
     [HideInInspector] public Inventory inventory;
@@ -39,6 +41,7 @@ public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         }
     }
 
+
     public void Set(ItemStack stack)
     {
         if (stack == null || stack.item == null || stack.amount <= 0)
@@ -52,6 +55,29 @@ public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         icon.sprite = stack.item.icon;
         icon.color = Color.white; // Sichtbar
         amountText.text = stack.amount > 1 ? stack.amount.ToString() : "";
+    }
+
+        // ---------- DETAIL ANSICHT LOGIK ----------
+    public void OnPointerClick(PointerEventData eventData) => UpdateDetailUI();
+    
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (highlightFrame != null) highlightFrame.enabled = true;
+        UpdateDetailUI(); 
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (highlightFrame != null) highlightFrame.enabled = false;
+    }
+
+    private void UpdateDetailUI()
+    {
+        InventoryUI ui = Object.FindFirstObjectByType<InventoryUI>();
+        if (ui != null && CurrentStack != null && CurrentStack.item != null)
+        {
+            ui.UpdateDetailView(CurrentStack.item.icon, CurrentStack.item.itemName);
+        }
     }
 
     // ---------- DRAG ----------
