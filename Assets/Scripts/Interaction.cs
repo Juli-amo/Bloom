@@ -47,6 +47,7 @@ public class Interaction : MonoBehaviour
         {
             // Das ist der entscheidende Call:
             // -> tools.Current ist das in der Hotbar ausgewählte Item (Seeds, WateringCan, Hand, Hoe, Axe …)
+            GetComponentInParent<PlayerActionAnimator>()?.OnInteract(tools.Current);
             interactable.Interact(tools.Current);
         }
     }
